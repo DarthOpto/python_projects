@@ -25,7 +25,7 @@ class Card(object):
 
 class Hand(object):
     """ A Hand of playing cards """
-    def __int__(self):
+    def __init__(self):
         self.cards = []
 
     def __str__(self):

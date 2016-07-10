@@ -21,10 +21,11 @@ class BlackjackCard(cards.Card):
 
 class BlackjackDeck(cards.Deck):
     """ A Blackjack Deck """
+
     def populate(self):
         for suit in BlackjackCard.SUITS:
             for rank in BlackjackCard.RANKS:
-                self.cards.append(BlackjackCard(rank=rank, suit=suit))
+                self.cards.append(BlackjackCard(rank, suit))
 
 
 class BlackjackHand(cards.Hand):
