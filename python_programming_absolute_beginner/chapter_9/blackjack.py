@@ -106,6 +106,7 @@ class BlackjackGame(object):
     """ A Blackjack Game """
     def __init__(self, names):
         self.players = []
+        print(self.players)
         for name in names:
             player = BlackjackPlayer(name)
             self.players.append(player)
@@ -117,7 +118,6 @@ class BlackjackGame(object):
 
         # Check the card count, and if it is less than 10 repopulate and
         # reshuffle
-
 
     @property
     def still_playing(self):

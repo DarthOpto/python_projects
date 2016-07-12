@@ -1,6 +1,7 @@
 # Games
 # Demonstrates module creation
 
+
 class Player(object):
     """ A Player for the game """
     def __init__(self, name, score=0):
