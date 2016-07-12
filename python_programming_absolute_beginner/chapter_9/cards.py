@@ -65,8 +65,14 @@ class Deck(Hand):
                 if self.cards:
                     top_card = self.cards[0]
                     self.give(top_card, hand)
-                else:
-                    print("Can't continue dealing. I am out of cards!")
+                elif len(self.cards) < 10:
+                    print("\nCan't continue dealing. Getting more cards")
+                    self.get_more_cards()
+
+    def get_more_cards(self):
+            self.clear()
+            self.populate()
+            self.shuffle()
 
 
 if __name__ == "__main__":

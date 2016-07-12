@@ -115,6 +115,10 @@ class BlackjackGame(object):
         self.deck.populate()
         self.deck.shuffle()
 
+        # Check the card count, and if it is less than 10 repopulate and
+        # reshuffle
+
+
     @property
     def still_playing(self):
         sp = []
