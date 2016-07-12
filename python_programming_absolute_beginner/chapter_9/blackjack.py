@@ -184,12 +184,12 @@ def main():
         name = input("Enter player name: ")
         names.append(name)
         print()
-        game = BlackjackGame(names)
+    game = BlackjackGame(names)
 
-        again = None
-        while again != "n":
-            game.play()
-            again = games.ask_yes_no("\nDo you want to play again?: ")
+    again = None
+    while again != "n":
+        game.play()
+        again = games.ask_yes_no("\nDo you want to play again?: ")
 
 main()
 input("\n\nPress the ENTER key to exit.")
