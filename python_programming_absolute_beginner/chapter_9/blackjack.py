@@ -70,6 +70,16 @@ class BlackjackHand(cards.Hand):
 
 class BlackjackPlayer(BlackjackHand):
     """ A Blackjack Player """
+    player_bank = 500
+
+    def is_betting(self):
+        response = "n"
+        while response == "n":
+            games.ask_yes_no("\n" + self.name + ", would you like to "
+                             "place a bet? (Y/N): ")
+        bet = int(input(self.name + "How much would you like to bet?: "))
+        return bet
+
     def is_hitting(self):
         response = \
             games.ask_yes_no("\n" + self.name + ", do you want a hit? (Y/N): ")
@@ -115,9 +125,6 @@ class BlackjackGame(object):
         self.deck = BlackjackDeck()
         self.deck.populate()
         self.deck.shuffle()
-
-        # Check the card count, and if it is less than 10 repopulate and
-        # reshuffle
 
     @property
     def still_playing(self):
