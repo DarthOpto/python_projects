@@ -16,27 +16,10 @@ A text contains only ASCII symbols.
 0 < len(text) ≤ 105
 """
 
-import re
-from collections import Counter
 
-
+import string
 def checkio(text):
-    lowered = text.lower()
-    alpha_char = re.sub(r'[^a-z0-9]', '', lowered)
-    counts = Counter(alpha_char)
-    results = {k: v for (k, v) in counts.items() if v > 1}
-    rev_multidict = {}
-    for key, value in results.items():
-        rev_multidict.setdefault(value, set()).add(key)
-
-    if not results or \
-            [key for key, values in rev_multidict.items() if len(values) > 1]:
-        list_alpha = list(alpha_char)
-        sorted_list = sorted(list_alpha)
-        print(sorted_list)
-        return sorted_list[0]
-    else:
-        return max(results.keys(), key=(lambda k: results[k]))
+    return max(string.ascii_lowercase,key=text.lower().count)
 
 
 if __name__ == '__main__':
