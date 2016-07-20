@@ -10,6 +10,11 @@ class Application(Frame):
         """ Initialize the frame """
         super(Application, self).__init__(master)
         self.grid()
+        self.inst_lbl = None
+        self.pw_lbl = None
+        self.pw_ent = None
+        self.submit_btn = None
+        self.secret_txt = None
         self.create_widgets()
 
     def create_widgets(self):
