@@ -29,6 +29,7 @@ class Application(Frame):
 
         # Create submit button
         self.submit_btn = Button(self, text="Submit", command=self.reveal)
+        root.bind("<Return>", self.reveal_a)
         self.submit_btn.grid(row=2, column=0, sticky=W)
 
         # create text widget to display message
@@ -49,6 +50,9 @@ class Application(Frame):
         self.secret_txt.delete(0.0, END)
         self.secret_txt.insert(0.0, message)
         self.secret_txt.configure(state='disabled')
+
+    def reveal_a(self, event):
+        self.reveal()
 
 # main
 root = Tk()
