@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8401ed85-7b08-4f88-9144-22cf08ceb273" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/movie_choose.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/longevity.py" afterPath="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/longevity.py" />
     </list>
     <ignored path="python_programming.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="longevity.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="longevity.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/longevity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-315">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="241">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="56" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="movie_choose.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/movie_choose.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="481">
+              <caret line="69" column="15" selection-start-line="69" selection-start-column="15" selection-end-line="69" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -83,6 +93,7 @@
         <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/click_counter.py" />
         <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/test.py" />
         <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/longevity.py" />
+        <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/movie_choose.py" />
       </list>
     </option>
   </component>
@@ -189,24 +200,7 @@
       <recent name="$PROJECT_DIR$/pickle_it" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.longevity">
-    <configuration default="false" name="labeler" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python_programming" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/labeler.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.movie_choose">
     <configuration default="false" name="lazy_buttons" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -271,6 +265,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_programming" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/longevity.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="movie_choose" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_programming" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/movie_choose.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -410,19 +421,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.labeler" />
-      <item index="1" class="java.lang.String" itemvalue="Python.lazy_buttons" />
-      <item index="2" class="java.lang.String" itemvalue="Python.lazy_buttons2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.click_counter" />
-      <item index="4" class="java.lang.String" itemvalue="Python.longevity" />
+      <item index="0" class="java.lang.String" itemvalue="Python.lazy_buttons" />
+      <item index="1" class="java.lang.String" itemvalue="Python.lazy_buttons2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.click_counter" />
+      <item index="3" class="java.lang.String" itemvalue="Python.longevity" />
+      <item index="4" class="java.lang.String" itemvalue="Python.movie_choose" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.longevity" />
-        <item index="1" class="java.lang.String" itemvalue="Python.click_counter" />
-        <item index="2" class="java.lang.String" itemvalue="Python.lazy_buttons2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.lazy_buttons" />
-        <item index="4" class="java.lang.String" itemvalue="Python.labeler" />
+        <item index="0" class="java.lang.String" itemvalue="Python.movie_choose" />
+        <item index="1" class="java.lang.String" itemvalue="Python.longevity" />
+        <item index="2" class="java.lang.String" itemvalue="Python.click_counter" />
+        <item index="3" class="java.lang.String" itemvalue="Python.lazy_buttons2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.lazy_buttons" />
       </list>
     </recent_temporary>
   </component>
@@ -501,7 +512,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="79" y="23" width="1811" height="1006" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972068" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -509,7 +520,7 @@
       <window_info id="Dilbert" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3269663" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3269663" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -550,13 +561,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/check_io_projects/check_io_median.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/check_io_projects/check_io_median.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -758,8 +762,16 @@
     <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/test.py" />
     <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/longevity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="241">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="56" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/movie_choose.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="69" column="15" selection-start-line="69" selection-start-column="15" selection-end-line="69" selection-end-column="15" />
           <folding />
         </state>
       </provider>
