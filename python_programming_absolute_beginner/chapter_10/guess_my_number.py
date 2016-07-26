@@ -37,18 +37,26 @@ class Application(Frame):
                text="Submit Guess",
                command=self.guessing
                ).grid(row=5, column=0, sticky=W)
-        root.bind("<Return>", self.guessing_a)
+        root.bind("<Return>", self.guessing)
 
         self.results = Label(self, text="")
         self.results.grid(row=6, column=0, sticky=W+E+N+S)
 
-    def guessing(self):
-        guess = int(self.guess_ent.get())
-        while guess != self.the_number:
+    def guessing(self, event=None):
+        if self.guess_ent.get() != '':
+            guess = int(self.guess_ent.get())
             if guess > self.the_number:
-                self.results.config(text="Lower")
+                    self.results.config(text="Lower")
+                    self.guess_ent.delete(0, END)
+            elif guess < self.the_number:
+                    self.results.config(text="Higher")
+                    self.guess_ent.delete(0, END)
             else:
-                self.results.config(text="Higher")
+                self.results.config(
+                    text="You guessed it!. "
+                         "The number I was thinking of was:{}, "
+                         "and it only took you {}, tries"
+                         .format(self.the_number, self.tries))
 
             self.tries += 1
             if self.tries >= 10:
@@ -56,15 +64,7 @@ class Application(Frame):
                                          "number in the appropriate amount "
                                          "of tries. The number I was "
                                          "thinking of was: {}"
-                                    .format(self.the_number))
-
-        self.results.config(text="You guessed it!. "
-                                 "The number I was thinking of was: {}, "
-                                 "and it only took you {}, tries"
-                            .format(self.the_number, self.tries))
-
-    def guessing_a(self):
-        self.guessing()
+                                         .format(self.the_number))
 
 
 # main
