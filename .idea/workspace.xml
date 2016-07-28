@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8401ed85-7b08-4f88-9144-22cf08ceb273" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/chef.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/pan.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/pizza.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/wall.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/background_image.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/big_score.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/bouncing_pizza.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/moving_pan.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/moving_pizza.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/new_graphics_window.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/pizza_panic.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/pizza_sprite.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/slippery_pizza.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/you_won.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/guess_my_number.py" afterPath="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/guess_my_number.py" />
     </list>
     <ignored path="python_programming.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,34 +37,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="guess_my_number.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/guess_my_number.py">
+      <file leaf-file-name="pizza_panic.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/pizza_panic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+            <state relative-caret-position="265">
+              <caret line="109" column="14" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
               <folding>
-                <element signature="e#203#224#0" expanded="true" />
+                <element signature="e#78#112#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="number_guessing.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/number_guessing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="longevity.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/longevity.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -108,11 +102,21 @@
         <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/movie_chooser2.py" />
         <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/mad_lib.py" />
         <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/guess_my_number.py" />
+        <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/new_graphics_window.py" />
+        <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/background_image.py" />
+        <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/pizza_sprite.py" />
+        <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/big_score.py" />
+        <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/you_won.py" />
+        <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/moving_pizza.py" />
+        <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/bouncing_pizza.py" />
+        <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/moving_pan.py" />
+        <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/slippery_pizza.py" />
+        <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/pizza_panic.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="191" />
+    <option name="x" value="60" />
     <option name="y" value="23" />
     <option name="width" value="1811" />
     <option name="height" value="1006" />
@@ -142,6 +146,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -188,114 +194,113 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chapter_10" />
+              <option name="myItemId" value="chapter_11" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../local_copy" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_9" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/python_programming_absolute_beginner" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/check_io_projects" />
       <recent name="$PROJECT_DIR$/pickle_it" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11" />
+      <recent name="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_9" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/python_programming_absolute_beginner" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.guess_my_number">
-    <configuration default="false" name="longevity" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.pizza_panic">
+    <configuration default="false" name="moving_pizza" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_programming" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/longevity.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/moving_pizza.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="movie_choose" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="bouncing_pizza" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_programming" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/movie_choose.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/bouncing_pizza.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="movie_chooser2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="moving_pan" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_programming" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/movie_chooser2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/moving_pan.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="mad_lib" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="slippery_pizza" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_programming" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/mad_lib.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/slippery_pizza.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="guess_my_number" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="pizza_panic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_programming" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/guess_my_number.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/pizza_panic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -435,19 +440,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.longevity" />
-      <item index="1" class="java.lang.String" itemvalue="Python.movie_choose" />
-      <item index="2" class="java.lang.String" itemvalue="Python.movie_chooser2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.mad_lib" />
-      <item index="4" class="java.lang.String" itemvalue="Python.guess_my_number" />
+      <item index="0" class="java.lang.String" itemvalue="Python.moving_pizza" />
+      <item index="1" class="java.lang.String" itemvalue="Python.bouncing_pizza" />
+      <item index="2" class="java.lang.String" itemvalue="Python.moving_pan" />
+      <item index="3" class="java.lang.String" itemvalue="Python.slippery_pizza" />
+      <item index="4" class="java.lang.String" itemvalue="Python.pizza_panic" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.guess_my_number" />
-        <item index="1" class="java.lang.String" itemvalue="Python.mad_lib" />
-        <item index="2" class="java.lang.String" itemvalue="Python.movie_chooser2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.movie_choose" />
-        <item index="4" class="java.lang.String" itemvalue="Python.longevity" />
+        <item index="0" class="java.lang.String" itemvalue="Python.pizza_panic" />
+        <item index="1" class="java.lang.String" itemvalue="Python.slippery_pizza" />
+        <item index="2" class="java.lang.String" itemvalue="Python.moving_pan" />
+        <item index="3" class="java.lang.String" itemvalue="Python.bouncing_pizza" />
+        <item index="4" class="java.lang.String" itemvalue="Python.moving_pizza" />
       </list>
     </recent_temporary>
   </component>
@@ -525,7 +530,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="191" y="23" width="1811" height="1006" extended-state="0" />
+    <frame x="60" y="23" width="1811" height="1006" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972068" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -575,18 +580,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/critter_caretaker/simple_critter.py" />
-    <entry file="file://$PROJECT_DIR$/critter_caretaker/constructor_critter.py" />
-    <entry file="file://$PROJECT_DIR$/critter_caretaker/critter_attribute.py" />
-    <entry file="file://$PROJECT_DIR$/critter_caretaker/simple_critter.py" />
-    <entry file="file://$PROJECT_DIR$/critter_caretaker/constructor_critter.py" />
-    <entry file="file://$PROJECT_DIR$/critter_caretaker/simple_critter.py" />
-    <entry file="file://$PROJECT_DIR$/handle_it/handle_it.py" />
-    <entry file="file://$PROJECT_DIR$/pickle_it/pickles2.dat.db" />
-    <entry file="file://$PROJECT_DIR$/pickle_it/pickles1.dat" />
-    <entry file="file://$PROJECT_DIR$/pickle_it/pickle_it.py" />
-    <entry file="file://$PROJECT_DIR$/handle_it/handle_it.py" />
-    <entry file="file://$PROJECT_DIR$/trivia_challenge_game/trivia.txt" />
     <entry file="file://$PROJECT_DIR$/trivia_challenge_game/trivia_challenge.py" />
     <entry file="file://$PROJECT_DIR$/critter_caretaker/critter_attribute.py" />
     <entry file="file://$PROJECT_DIR$/critter_caretaker/constructor_critter.py" />
@@ -781,11 +774,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/guess_my_number.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="547">
           <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-          <folding>
-            <element signature="e#203#224#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -793,7 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,7 +790,96 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
           <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/new_graphics_window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/background_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/big_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/you_won.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/wall.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/pizza_sprite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="14" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/bouncing_pizza.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/moving_pizza.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="20" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/pan.bmp">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/slippery_pizza.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding>
+            <element signature="e#72#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/moving_pan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="30" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/pizza_panic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="109" column="14" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
+          <folding>
+            <element signature="e#78#112#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
