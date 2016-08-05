@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8401ed85-7b08-4f88-9144-22cf08ceb273" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_01/hello_world.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02/boolean_values.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02/hello_mary.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02/swordfish.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02/vampire.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02/your_name.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_03/collatz.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python_programming.iws" />
@@ -22,7 +27,18 @@
     <favorites_list name="python_programming" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="collatz.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_03/collatz.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,12 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pickle_it.py" />
-        <option value="$PROJECT_DIR$/handle_it/handle_it.py" />
-        <option value="$PROJECT_DIR$/trivia_challenge_game/trivia_challenge.py" />
-        <option value="$PROJECT_DIR$/trivia_challenge_game/trivia.txt" />
-        <option value="$PROJECT_DIR$/critter_caretaker/simple_critter.py" />
-        <option value="$PROJECT_DIR$/critter_caretaker/constructor_critter.py" />
         <option value="$PROJECT_DIR$/critter_caretaker/critter_attribute.py" />
         <option value="$PROJECT_DIR$/validate_cc_number.py" />
         <option value="$PROJECT_DIR$/critter_caretaker/classy_critter.py" />
@@ -88,6 +98,12 @@
         <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/pizza_panic_2.py" />
         <option value="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter 01/hello_world.py" />
         <option value="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_01/hello_world.py" />
+        <option value="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02/boolean_values.py" />
+        <option value="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02/hello_mary.py" />
+        <option value="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02/vampire.py" />
+        <option value="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02/your_name.py" />
+        <option value="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02/swordfish.py" />
+        <option value="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_03/collatz.py" />
       </list>
     </option>
   </component>
@@ -122,7 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -169,13 +185,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter_01" />
+              <option name="myItemId" value="Chapter_03" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,88 +211,88 @@
       <recent name="$PROJECT_DIR$/python_programming_absolute_beginner" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.hello_world (1)">
-    <configuration default="false" name="pizza_panic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.collatz">
+    <configuration default="false" name="hello_mary" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_programming" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/pizza_panic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02/hello_mary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="pizza_panic_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="vampire" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_programming" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/pizza_panic_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02/vampire.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="hello_world" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="your_name" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter 01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_programming" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter 01/hello_world.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02/your_name.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="guess_my_number" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="swordfish" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_programming" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/guess_my_number.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02/swordfish.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="hello_world (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="collatz" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_programming" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_01/hello_world.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_03/collatz.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -416,19 +432,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.pizza_panic" />
-      <item index="1" class="java.lang.String" itemvalue="Python.pizza_panic_2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.hello_world" />
-      <item index="3" class="java.lang.String" itemvalue="Python.guess_my_number" />
-      <item index="4" class="java.lang.String" itemvalue="Python.hello_world (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.hello_mary" />
+      <item index="1" class="java.lang.String" itemvalue="Python.vampire" />
+      <item index="2" class="java.lang.String" itemvalue="Python.your_name" />
+      <item index="3" class="java.lang.String" itemvalue="Python.swordfish" />
+      <item index="4" class="java.lang.String" itemvalue="Python.collatz" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.hello_world (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.guess_my_number" />
-        <item index="2" class="java.lang.String" itemvalue="Python.hello_world" />
-        <item index="3" class="java.lang.String" itemvalue="Python.pizza_panic_2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.pizza_panic" />
+        <item index="0" class="java.lang.String" itemvalue="Python.collatz" />
+        <item index="1" class="java.lang.String" itemvalue="Python.swordfish" />
+        <item index="2" class="java.lang.String" itemvalue="Python.your_name" />
+        <item index="3" class="java.lang.String" itemvalue="Python.vampire" />
+        <item index="4" class="java.lang.String" itemvalue="Python.hello_mary" />
       </list>
     </recent_temporary>
   </component>
@@ -502,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1463004079002</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Began work on Automate the boring stuff with python&#10;">
+      <created>1469837875104</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1469837875104</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -547,7 +570,8 @@
     <MESSAGE value="working through critter constructor&#10;" />
     <MESSAGE value="fixed median solver &#10;" />
     <MESSAGE value="Added check_io directory, moved files in there&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added check_io directory, moved files in there&#10;" />
+    <MESSAGE value="Began work on Automate the boring stuff with python&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Began work on Automate the boring stuff with python&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -556,30 +580,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/critter_caretaker/constructor_critter.py" />
-    <entry file="file://$PROJECT_DIR$/critter_caretaker/simple_critter.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/validate_cc_number.py" />
-    <entry file="file://$PROJECT_DIR$/check_io_projects/moore-neighbourhood.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check_io_projects/non_unique_elements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/critter_caretaker/classy_critter.py" />
     <entry file="file://$PROJECT_DIR$/check_io_projects/password_checker.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -837,9 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#78#112#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -847,9 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="109" column="14" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
-          <folding>
-            <element signature="e#78#112#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -857,7 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,6 +858,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02/boolean_values.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02/hello_mary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02/vampire.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02/your_name.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02/swordfish.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_03/collatz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
           <folding />
         </state>
       </provider>
