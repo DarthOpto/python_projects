@@ -16,7 +16,7 @@ def temperature_return(scale=None, temperature=None, converted_scale=None,
     return json.dumps(ret_temp)
 
 
-@app.route("/temp_conversion/v1/<string:converter>/<float:temp>")
+@app.route("/temp_conversion/v1/<string:converter>/<int:temp>")
 def convert_temperature(converter=None, temp=None):
     """
     Take a temperature and convert it.
@@ -30,38 +30,32 @@ def convert_temperature(converter=None, temp=None):
     :return: Conversion based on path
     """
     scale = None
-    temperature = None
+    temperature = float(temp)
     converted_scale = None
     converted_temp = None
 
     if converter == "FtoC":
         scale = "Fahrenheit"
-        temperature = temp
         converted_scale = "Celsius"
         converted_temp = (temp - 32) / 1.8
     elif converter == "CtoF":
         scale = "Celsius"
-        temperature = temp
         converted_scale = "Fahrenheit"
         converted_temp = (temp * 1.8) + 32
     elif converter == "FtoK":
         scale = "Fahrenheit"
-        temperature = temp
         converted_scale = "Kelvin"
         converted_temp = (temp + 459.67) * 5/9
     elif converter == "KtoF":
         scale = "Kelvin"
-        temperature = temp
         converted_scale = "Fahrenheit"
         converted_temp = (temp * 9/5) - 459.67
     elif converter == "CtoK":
         scale = "Celsius"
-        temperature = temp
         converted_scale = "Kelvin"
         converted_temp = temp + 273.15
     elif converter == "KtoC":
         scale = "Kelvin"
-        temperature = temp
         converted_scale = "Celsius"
         converted_temp = temp - 273.15
     return temperature_return(scale=scale, temperature=temperature,
