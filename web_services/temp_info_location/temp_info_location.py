@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 ZIP_API_KEY = \
     "3aZek97NfJSZFhsPDMhLHO1H2UbkEnlHykVSu2GKMzJrQbhtXyfFngmqbxKPV5wt"
-DARK_SKY_API_KEY = "62a8f2af606b9a6fe75988fe4229143e"
+DARK_SKY_API_KEY = "GET YOUR OWN DARK SKY API KEY"
 
 
 def get_zip_code_info(zip_code):
