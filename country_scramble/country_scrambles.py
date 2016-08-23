@@ -65,9 +65,6 @@ class Application(Frame):
         self.guess_ent.delete(0, END)
 
 
-
-
-
 # main
 root = Tk()
 root.title("Country Scramble")
