@@ -10,8 +10,8 @@ from country_scramble.country_getter import get_country
 class Application(Frame):
     """A GUI Application for unscrambling a country"""
 
-    def __init__(self, master):
-        super(Application, self).__init__(master)
+    def __init__(self, *args, **kwargs):
+        super(Application, self).__init__(*args, **kwargs)
         self.country = get_country()
         self.the_country = self.country[0]
         self.scrambled = self.country[1]
@@ -41,8 +41,8 @@ class Application(Frame):
         root.bind("<Return>", self.guessing)
 
     def guessing(self, event=None):
+        guess = str(self.guess_ent.get()).upper()
         if self.guess_ent.get() != '':
-            guess = str(self.guess_ent.get()).upper()
             if guess != self.the_country.upper():
                 messagebox.showwarning(
                     "Continue?",
