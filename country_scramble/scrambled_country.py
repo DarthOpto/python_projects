@@ -77,7 +77,7 @@ class Application(Frame):
         self.scrambled_label.configure(text=self.scrambled)
         self.tries = 1
         self.reset_input()
-
+# TODO - Add Hints after a certain number of tries
 
 if __name__ == "__main__":
     root = Tk()
