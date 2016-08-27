@@ -22,9 +22,12 @@ class Application(Frame):
 
         self.the_country = None
         self.scrambled = None
+        self.country_capital = None
+        self.currency = None
+        self.languages = None
         self.guess_ent = None
         self.scrambled_label = None
-        self.tries = 1
+        self.tries = None
 
         self.create_widgets()
         self.new_game()
@@ -58,12 +61,60 @@ class Application(Frame):
         if not guess:
             return
 
-        self.tries += 1
         if guess != country:
             title, \
                 message = "Continue?", "Sorry that answer is not correct"
             messagebox.showwarning(title, message)
             self.reset_input()
+            self.tries += 1
+
+            # Ask if user wants a hint at 5 tries
+            if self.tries == 5:
+                title, message = "Hint?", "Would you like a hint?"
+                if messagebox.askyesno(title, message):
+                    title, message = "Languages", \
+                                     "The language(s) of this country is: {}"\
+                                         .format(self.languages)
+                    messagebox.askokcancel(title, message)
+                    self.reset_input()
+                else:
+                    self.reset_input()
+
+            # Ask if user wants another hint at 10 tries
+            if self.tries == 10:
+                title, message = "Hint?", "Would you like another hint?"
+                if messagebox.askyesno(title, message):
+                    title, message = "Currency", \
+                                     "The currency of this country is: {}"\
+                                         .format(self.currency)
+                    messagebox.askokcancel(title, message)
+                    self.reset_input()
+                else:
+                    self.reset_input()
+
+            # Ask if user wants another hint at 15 tries
+            if self.tries == 15:
+                title, message = "Hint?", "Would you like your final hint?"
+                if messagebox.askyesno(title, message):
+                    title, message = "Capital", \
+                                     "The capital of this country is: {}"\
+                                         .format(self.country_capital)
+                    messagebox.askokcancel(title, message)
+                    self.reset_input()
+                else:
+                    self.reset_input()
+
+            # User isn't going to get it at this point give them the answer
+            # and ask if they want to try again.
+            if self.tries == 20:
+                title, message = "Sorry", "You went over the max number of " \
+                                          "tries, the country was: {}, " \
+                                          "would you like to try another"\
+                                           .format(self.the_country)
+                if messagebox.askyesno(title, message):
+                    self.new_game()
+                else:
+                    root.destroy()
             return
 
         title, message = "Congratulations", "Would you like to try another?"
@@ -73,11 +124,12 @@ class Application(Frame):
             root.destroy()
 
     def new_game(self):
-        self.the_country, self.scrambled = get_country()
+        self.the_country, self.scrambled, self.country_capital, \
+            self.currency, self.languages = get_country()
         self.scrambled_label.configure(text=self.scrambled)
         self.tries = 1
         self.reset_input()
-# TODO - Add Hints after a certain number of tries
+
 
 if __name__ == "__main__":
     root = Tk()
