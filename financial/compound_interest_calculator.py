@@ -8,17 +8,35 @@ P = Principal/Original Amount Invested
 r = Interest Rate
 t = Years or Time Periods the money has been invested.
 """
-from decimal import Decimal
+import matplotlib.pyplot as plt
 
 
-def compound_interest():
-    print('\n Greetings, let\'s calculate some interest \n')
-    principal = Decimal(input('Please enter your Original amount invested: \n'))
-    rate = Decimal(input('Please enter the interest rate: \n'))
-    time = int(input('Please enter the the amount of time your money will be invested: \n'))
-    print('Thank you. Now calculating what your original investment of: {0}, would be at a rate'
-          'of: {1} after {2} number of years'.format(principal, rate, time))
-    money_at_end = Decimal(principal * (1 + rate) ** time)
-    print(money_at_end)
+def compound_interest(p, r, t):
+    """
+    Calculate Compound Interest
+    :param p: Principal investment
+    :param r: interest rate
+    :param t: years or time periods
+    :return: Money at the end
+    """
+    a = p * (1 + r) ** t
+    return a
 
-compound_interest()
+
+def create_array(p, r, t):
+    values = [p]
+    years = [0]
+    for time in range(1, t + 1):
+        values.append(compound_interest(p, r, time))
+        years.append(time)
+    return values, years
+
+values, years = create_array(100, .02, 25)
+plt.plot(years, values, 'r')
+values, years = create_array(100, .07, 25)
+plt.plot(years, values, 'g')
+values, years = create_array(100, .14, 25)
+plt.plot(years, values, 'b')
+plt.show()
+
+
