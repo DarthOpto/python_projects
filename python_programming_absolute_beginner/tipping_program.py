@@ -3,7 +3,7 @@ Gets the restaurant total from the user and the calculates a 15 percent and a 20
 percent tip for the nice waitress.
 """
 
-restaurant_total = float(raw_input("\nGreetings User, please enter the total "\
+restaurant_total = float(input("\nGreetings User, please enter the total "\
                                    "bill: "))
 
 # Calculate the 15% tip

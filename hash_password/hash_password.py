@@ -1,4 +1,5 @@
-import hashlib, uuid
+import hashlib
+import uuid
 
 
 def hash_password(password=None):

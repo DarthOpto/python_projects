@@ -1,12 +1,15 @@
 # Receive and Return
 # Demonstrates parameters and return values
 
+
 def display(message):
     print(message)
+
 
 def give_me_five():
     five = 5
     return 5
+
 
 def ask_yes_no(question):
     """Ask a yes or no question"""
