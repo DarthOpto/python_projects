@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8401ed85-7b08-4f88-9144-22cf08ceb273" name="Default" comment="cleared out un-needed lines">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/python_programming.iml" afterPath="$PROJECT_DIR$/.idea/python_programming.iml" />
+    <list default="true" id="8401ed85-7b08-4f88-9144-22cf08ceb273" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/financial/present_and_future_value.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/financial/compound_interest_calculator.py" afterPath="$PROJECT_DIR$/financial/compound_interest_calculator.py" />
     </list>
     <ignored path="python_programming.iws" />
     <ignored path=".idea/" />
@@ -26,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="compound_interest_calculator.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/financial/compound_interest_calculator.py">
+      <file leaf-file-name="present_and_future_value.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/financial/present_and_future_value.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+            <state relative-caret-position="225">
+              <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -51,7 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/lazy_buttons2.py" />
         <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/click_counter.py" />
         <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/test.py" />
         <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/longevity.py" />
@@ -102,12 +99,15 @@
         <option value="$PROJECT_DIR$/python_programming_absolute_beginner/receive_and_return.py" />
         <option value="$PROJECT_DIR$/python_programming_absolute_beginner/tipping_program.py" />
         <option value="$PROJECT_DIR$/financial/compound_interest_calculator.py" />
+        <option value="$PROJECT_DIR$/financial/present_and_future_value.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="958" />
-    <option name="height" value="1080" />
+    <option name="x" value="133" />
+    <option name="y" value="23" />
+    <option name="width" value="1611" />
+    <option name="height" value="1009" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -128,7 +128,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -171,13 +170,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../local_copy" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -203,25 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.compound_interest_calculator">
-    <configuration default="false" name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python_programming" />
-      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.present_and_future_value">
     <configuration default="false" name="todo_appv2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,6 +267,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_programming" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/financial/compound_interest_calculator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="present_and_future_value" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/financial" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_programming" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/financial/present_and_future_value.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -388,19 +387,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.scratch" />
-      <item index="1" class="java.lang.String" itemvalue="Python.todo_appv2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.formulas" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for web_services.volume_calculator.formula_tests.FormulaTests" />
-      <item index="4" class="java.lang.String" itemvalue="Python.compound_interest_calculator" />
+      <item index="0" class="java.lang.String" itemvalue="Python.todo_appv2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.formulas" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for web_services.volume_calculator.formula_tests.FormulaTests" />
+      <item index="3" class="java.lang.String" itemvalue="Python.compound_interest_calculator" />
+      <item index="4" class="java.lang.String" itemvalue="Python.present_and_future_value" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.compound_interest_calculator" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for web_services.volume_calculator.formula_tests.FormulaTests" />
-        <item index="2" class="java.lang.String" itemvalue="Python.formulas" />
-        <item index="3" class="java.lang.String" itemvalue="Python.todo_appv2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.scratch" />
+        <item index="0" class="java.lang.String" itemvalue="Python.present_and_future_value" />
+        <item index="1" class="java.lang.String" itemvalue="Python.compound_interest_calculator" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for web_services.volume_calculator.formula_tests.FormulaTests" />
+        <item index="3" class="java.lang.String" itemvalue="Python.formulas" />
+        <item index="4" class="java.lang.String" itemvalue="Python.todo_appv2" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -584,7 +583,14 @@
       <option name="project" value="LOCAL" />
       <updated>1498488529384</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added more to the compound interest calculator">
+      <created>1498514669176</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1498514669176</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -629,13 +635,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="958" height="1080" extended-state="0" />
+    <frame x="133" y="23" width="1611" height="1009" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.480167" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20360024" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35957447" sideWeight="0.17311907" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32720232" sideWeight="0.82688093" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35957447" sideWeight="0.82688093" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -702,7 +708,8 @@
     <MESSAGE value="cleared out un-needed lines" />
     <MESSAGE value="Working on a Volume Calculator" />
     <MESSAGE value="added a compoound interested calculator and pep-8 cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a compoound interested calculator and pep-8 cleanup" />
+    <MESSAGE value="added more to the compound interest calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="added more to the compound interest calculator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -711,13 +718,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/big_score.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/you_won.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -952,7 +952,14 @@
     <entry file="file://$PROJECT_DIR$/financial/compound_interest_calculator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financial/present_and_future_value.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
           <folding />
         </state>
       </provider>
