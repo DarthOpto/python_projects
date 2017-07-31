@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8401ed85-7b08-4f88-9144-22cf08ceb273" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/financial/present_and_future_value.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/python_programming.iml" afterPath="$PROJECT_DIR$/.idea/python_programming.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_services/volume_calculator/formula_tests.py" afterPath="$PROJECT_DIR$/web_services/volume_calculator/formula_tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_services/volume_calculator/formulas.py" afterPath="$PROJECT_DIR$/web_services/volume_calculator/formulas.py" />
     </list>
     <ignored path="python_programming.iws" />
     <ignored path=".idea/" />
@@ -18,17 +21,38 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="python_programming" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="present_and_future_value.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/financial/present_and_future_value.py">
+      <file leaf-file-name="calculate_volume.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_services/volume_calculator/calculate_volume.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+            <state relative-caret-position="120">
+              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formulas.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_services/volume_calculator/formulas.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-91">
+              <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+              <folding>
+                <element signature="e#63#82#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formula_tests.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web_services/volume_calculator/formula_tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="47" column="69" lean-forward="true" selection-start-line="46" selection-start-column="67" selection-end-line="47" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -93,13 +117,13 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
         <option value="$PROJECT_DIR$/tkinter_by_example/todo_appv2.py" />
         <option value="$PROJECT_DIR$/web_services/volume_calculator/calculate_volume.py" />
-        <option value="$PROJECT_DIR$/web_services/volume_calculator/formulas.py" />
-        <option value="$PROJECT_DIR$/web_services/volume_calculator/formula_tests.py" />
         <option value="$PROJECT_DIR$/hash_password/hash_password.py" />
         <option value="$PROJECT_DIR$/python_programming_absolute_beginner/receive_and_return.py" />
         <option value="$PROJECT_DIR$/python_programming_absolute_beginner/tipping_program.py" />
         <option value="$PROJECT_DIR$/financial/compound_interest_calculator.py" />
         <option value="$PROJECT_DIR$/financial/present_and_future_value.py" />
+        <option value="$PROJECT_DIR$/web_services/volume_calculator/formulas.py" />
+        <option value="$PROJECT_DIR$/web_services/volume_calculator/formula_tests.py" />
       </list>
     </option>
   </component>
@@ -127,54 +151,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python_projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python_projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python_projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python_projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python_programming_absolute_beginner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python_projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python_projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="financial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="python_projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_projects" type="462c0819:PsiDirectoryNode" />
+              <item name="web_services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_projects" type="462c0819:PsiDirectoryNode" />
+              <item name="web_services" type="462c0819:PsiDirectoryNode" />
+              <item name="volume_calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../local_copy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
   </component>
@@ -202,93 +206,48 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.present_and_future_value">
-    <configuration default="false" name="todo_appv2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tkinter_by_example" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python_programming" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tkinter_by_example/todo_appv2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="formulas" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_services/volume_calculator" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python_programming" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_services/volume_calculator/formulas.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests for web_services.volume_calculator.formula_tests.FormulaTests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for formula_tests.FormulaTests.test_cylinder_volume">
+    <configuration name="Unittests for formula_tests.FormulaTests.test_cube_volume" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_services/volume_calculator" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_programming" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;web_services.volume_calculator.formula_tests.FormulaTests&quot;" />
+      <option name="_new_target" value="&quot;formula_tests.FormulaTests.test_cube_volume&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method />
     </configuration>
-    <configuration default="false" name="compound_interest_calculator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for formula_tests.FormulaTests.test_cylinder_volume" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/financial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_services/volume_calculator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_programming" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/financial/compound_interest_calculator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;formula_tests.FormulaTests.test_cylinder_volume&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration default="false" name="present_and_future_value" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for formula_tests.FormulaTests.test_sphere_volume" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/financial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_services/volume_calculator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_programming" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/financial/present_and_future_value.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;formula_tests.FormulaTests.test_sphere_volume&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -386,22 +345,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.todo_appv2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.formulas" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for web_services.volume_calculator.formula_tests.FormulaTests" />
-      <item index="3" class="java.lang.String" itemvalue="Python.compound_interest_calculator" />
-      <item index="4" class="java.lang.String" itemvalue="Python.present_and_future_value" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.present_and_future_value" />
-        <item index="1" class="java.lang.String" itemvalue="Python.compound_interest_calculator" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for web_services.volume_calculator.formula_tests.FormulaTests" />
-        <item index="3" class="java.lang.String" itemvalue="Python.formulas" />
-        <item index="4" class="java.lang.String" itemvalue="Python.todo_appv2" />
-      </list>
-    </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -421,6 +364,56 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+    <configuration name="compound_interest_calculator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/financial" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_programming" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/financial/compound_interest_calculator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="present_and_future_value" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/financial" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_programming" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/financial/present_and_future_value.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.compound_interest_calculator" />
+      <item index="1" class="java.lang.String" itemvalue="Python.present_and_future_value" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for formula_tests.FormulaTests.test_cylinder_volume" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for formula_tests.FormulaTests.test_cube_volume" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for formula_tests.FormulaTests.test_sphere_volume" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for formula_tests.FormulaTests.test_cylinder_volume" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for formula_tests.FormulaTests.test_sphere_volume" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for formula_tests.FormulaTests.test_cube_volume" />
+        <item index="3" class="java.lang.String" itemvalue="Python.present_and_future_value" />
+        <item index="4" class="java.lang.String" itemvalue="Python.compound_interest_calculator" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -590,39 +583,46 @@
       <option name="project" value="LOCAL" />
       <updated>1498514669176</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="added more to the compound interest calculator">
+      <created>1500312846238</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1500312846238</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_web_services_volume_calculator_formula_tests_FormulaTests - 2017.06.25 at 21h 48m 22s.xml">
-      <configuration name="Unittests for web_services.volume_calculator.formula_tests.FormulaTests" configurationId="tests" />
+    <history-entry file="Unittests_for_formula_tests_FormulaTests_test_cube_volume - 2017.07.31 at 15h 09m 33s.xml">
+      <configuration name="Unittests for formula_tests.FormulaTests.test_cube_volume" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_web_services_volume_calculator_formula_tests_FormulaTests - 2017.06.25 at 21h 48m 51s.xml">
-      <configuration name="Unittests for web_services.volume_calculator.formula_tests.FormulaTests" configurationId="tests" />
+    <history-entry file="Unittests_for_formula_tests_FormulaTests_test_cube_volume - 2017.07.31 at 15h 10m 09s.xml">
+      <configuration name="Unittests for formula_tests.FormulaTests.test_cube_volume" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_web_services_volume_calculator_formula_tests_FormulaTests - 2017.06.25 at 21h 49m 06s.xml">
-      <configuration name="Unittests for web_services.volume_calculator.formula_tests.FormulaTests" configurationId="tests" />
+    <history-entry file="Unittests_for_formula_tests_FormulaTests_test_cube_volume - 2017.07.31 at 15h 10m 27s.xml">
+      <configuration name="Unittests for formula_tests.FormulaTests.test_cube_volume" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_web_services_volume_calculator_formula_tests_FormulaTests - 2017.06.25 at 21h 49m 23s.xml">
-      <configuration name="Unittests for web_services.volume_calculator.formula_tests.FormulaTests" configurationId="tests" />
+    <history-entry file="Unittests_for_formula_tests_FormulaTests_test_cylinder_volume - 2017.07.31 at 15h 08m 52s.xml">
+      <configuration name="Unittests for formula_tests.FormulaTests.test_cylinder_volume" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_web_services_volume_calculator_formula_tests_FormulaTests - 2017.06.25 at 21h 50m 54s.xml">
-      <configuration name="Unittests for web_services.volume_calculator.formula_tests.FormulaTests" configurationId="tests" />
+    <history-entry file="Unittests_for_formula_tests_FormulaTests_test_cylinder_volume - 2017.07.31 at 15h 14m 28s.xml">
+      <configuration name="Unittests for formula_tests.FormulaTests.test_cylinder_volume" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_web_services_volume_calculator_formula_tests_FormulaTests - 2017.06.25 at 21h 51m 15s.xml">
-      <configuration name="Unittests for web_services.volume_calculator.formula_tests.FormulaTests" configurationId="tests" />
+    <history-entry file="Unittests_for_formula_tests_FormulaTests_test_cylinder_volume - 2017.07.31 at 15h 14m 40s.xml">
+      <configuration name="Unittests for formula_tests.FormulaTests.test_cylinder_volume" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_web_services_volume_calculator_formula_tests_FormulaTests - 2017.06.25 at 21h 54m 13s.xml">
-      <configuration name="Unittests for web_services.volume_calculator.formula_tests.FormulaTests" configurationId="tests" />
+    <history-entry file="Unittests_for_formula_tests_FormulaTests_test_sphere_volume - 2017.07.31 at 15h 10m 35s.xml">
+      <configuration name="Unittests for formula_tests.FormulaTests.test_sphere_volume" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_web_services_volume_calculator_formula_tests_FormulaTests - 2017.06.25 at 22h 02m 27s.xml">
-      <configuration name="Unittests for web_services.volume_calculator.formula_tests.FormulaTests" configurationId="tests" />
+    <history-entry file="Unittests_for_formula_tests_FormulaTests_test_sphere_volume - 2017.07.31 at 15h 11m 08s.xml">
+      <configuration name="Unittests for formula_tests.FormulaTests.test_sphere_volume" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_web_services_volume_calculator_formula_tests_FormulaTests - 2017.06.25 at 22h 04m 31s.xml">
-      <configuration name="Unittests for web_services.volume_calculator.formula_tests.FormulaTests" configurationId="tests" />
+    <history-entry file="Unittests_for_formula_tests_FormulaTests_test_sphere_volume - 2017.07.31 at 15h 11m 27s.xml">
+      <configuration name="Unittests for formula_tests.FormulaTests.test_sphere_volume" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_web_services_volume_calculator_formula_tests_FormulaTests - 2017.06.25 at 22h 04m 47s.xml">
-      <configuration name="Unittests for web_services.volume_calculator.formula_tests.FormulaTests" configurationId="tests" />
+    <history-entry file="Unittests_for_formula_tests_FormulaTests_test_sphere_volume - 2017.07.31 at 15h 11m 40s.xml">
+      <configuration name="Unittests for formula_tests.FormulaTests.test_sphere_volume" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -641,13 +641,13 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20360024" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35957447" sideWeight="0.17311907" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35957447" sideWeight="0.82688093" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35859126" sideWeight="0.82688093" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39787233" sideWeight="0.49768364" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39787233" sideWeight="0.49768364" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -885,39 +885,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tkinter_by_example/todo_appv1.py" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="26" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
     <entry file="file://$PROJECT_DIR$/tkinter_by_example/todo_appv2.py" />
     <entry file="file://$PROJECT_DIR$/web_services/temp_conversion/temperature_converter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_services/volume_calculator/formula_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="56" lean-forward="true" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_services/volume_calculator/formulas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_services/volume_calculator/calculate_volume.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -958,8 +931,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/financial/present_and_future_value.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_services/volume_calculator/calculate_volume.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_services/volume_calculator/formulas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding>
+            <element signature="e#63#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_services/volume_calculator/formula_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="47" column="69" lean-forward="true" selection-start-line="46" selection-start-column="67" selection-end-line="47" selection-end-column="69" />
           <folding />
         </state>
       </provider>

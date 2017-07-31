@@ -2,6 +2,7 @@
 Functions for calculating the volume of certain shapes
 """
 from math import pi
+from decimal import Decimal
 
 
 class Formulas(object):
@@ -14,7 +15,7 @@ class Formulas(object):
         :return: The volume of the cube
         """
         volume = side ** 3
-        return volume
+        return float('{0:.2f}'.format(volume))
 
     @staticmethod
     def sphere_volume(radius: int):
@@ -24,7 +25,7 @@ class Formulas(object):
         :return: the volume of the sphere
         """
         volume = 4/3 * (pi * (radius ** 3))
-        return volume
+        return float('{0:.2f}'.format(volume))
 
     @staticmethod
     def right_square_pyramid(base_edge: int, height: int):
@@ -36,6 +37,18 @@ class Formulas(object):
         :return: volume of the pyramid
         """
         volume = (base_edge ** 2) * (height / 3)
-        return volume
+        return float('{0:.2f}'.format(volume))
+
+    @staticmethod
+    def cylinder_volume(radius: int, height: int):
+        """
+        Calculate the volume of a cylinder
+        V = pi * (radius ** 2 * (height))
+        :param radius: The radius of the cylinder
+        :param height: The height of the cylinder
+        :return: volume of the cylinder
+        """
+        volume = pi * (radius ** 2 * height)
+        return float('{0:.2f}'.format(volume))
 
 
