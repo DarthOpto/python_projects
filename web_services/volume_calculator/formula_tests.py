@@ -1,5 +1,5 @@
 import unittest
-from web_services.volume_calculator.formulas import Formulas as formulas
+import web_services.volume_calculator.formulas as formulas
 
 
 class FormulaTests(unittest.TestCase):

@@ -2,9 +2,10 @@
 # A Webservice to calculate the volume of shapes
 
 from flask import Flask, json
-from web_services.volume_calculator.formulas import Formulas as formulas
+import web_services.volume_calculator.formulas as formulas
 
 app = Flask(__name__)
+
 
 def volume_return(shape=None, volume=None):
     ret_volume = {"shape": shape, "volume": volume}
