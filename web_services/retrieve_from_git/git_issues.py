@@ -3,6 +3,8 @@ import web_services.retrieve_from_git.git_calls as gc
 import csv
 
 # TODO - ADD Customer Reported, once we get some.
+
+
 def issues_from_git():
     issues = []
     count = 1
