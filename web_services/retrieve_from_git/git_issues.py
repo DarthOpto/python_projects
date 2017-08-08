@@ -47,7 +47,6 @@ def send_to_csv():
             for key, value in data[date].items():
                 row.append(value)
             file_writer.writerow(row)
-    csv_file.close()
 
 send_to_csv()
 
