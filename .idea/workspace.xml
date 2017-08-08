@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8401ed85-7b08-4f88-9144-22cf08ceb273" name="Default" comment="query git api for issues">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web_services/retrieve_from_git/quickstart.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_services/retrieve_from_git/git_calls.py" afterPath="$PROJECT_DIR$/web_services/retrieve_from_git/git_calls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_services/retrieve_from_git/git_issues.py" afterPath="$PROJECT_DIR$/web_services/retrieve_from_git/git_issues.py" />
     </list>
     <ignored path="python_programming.iws" />
     <ignored path=".idea/" />
@@ -22,17 +25,15 @@
     <favorites_list name="python_programming" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.54759747">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="git_issues.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/web_services/retrieve_from_git/git_issues.py">
+          <file leaf-file-name="git_calls.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/web_services/retrieve_from_git/git_calls.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#15#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="92">
+                  <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -40,12 +41,24 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="git_calls.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/web_services/retrieve_from_git/git_calls.py">
+        <leaf>
+          <file leaf-file-name="git_issues.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/web_services/retrieve_from_git/git_issues.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+                <state relative-caret-position="76">
+                  <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+                  <folding>
+                    <element signature="e#0#15#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Issues_by_month.csv" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web_services/retrieve_from_git/Issues_by_month.csv">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -62,6 +75,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>c</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -73,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/movie_choose.py" />
         <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/movie_chooser2.py" />
         <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/mad_lib.py" />
         <option value="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_10/guess_my_number.py" />
@@ -122,16 +139,36 @@
         <option value="$PROJECT_DIR$/web_services/volume_calculator/calculate_volume.py" />
         <option value="$PROJECT_DIR$/web_services/volume_calculator/formula_tests.py" />
         <option value="$PROJECT_DIR$/web_services/retrieve_from_git/report.py" />
-        <option value="$PROJECT_DIR$/web_services/retrieve_from_git/git_issues.py" />
+        <option value="$PROJECT_DIR$/web_services/retrieve_from_git/quickstart.py" />
         <option value="$PROJECT_DIR$/web_services/retrieve_from_git/git_calls.py" />
+        <option value="$PROJECT_DIR$/web_services/retrieve_from_git/git_issues.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3808" />
-    <option name="y" value="-122" />
-    <option name="width" value="2701" />
-    <option name="height" value="1633" />
+    <option name="x" value="2183" />
+    <option name="y" value="24" />
+    <option name="width" value="3239" />
+    <option name="height" value="1956" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyCompatibilityInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -169,12 +206,6 @@
               <item name="web_services" type="462c0819:PsiDirectoryNode" />
               <item name="retrieve_from_git" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="python_projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_projects" type="462c0819:PsiDirectoryNode" />
-              <item name="web_services" type="462c0819:PsiDirectoryNode" />
-              <item name="temp_conversion" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -185,19 +216,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/check_io_projects" />
-      <recent name="$PROJECT_DIR$/pickle_it" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11" />
       <recent name="$PROJECT_DIR$/python_programming_absolute_beginner/chapter_9" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/python_programming_absolute_beginner" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web_services/retrieve_from_git" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/check_io_projects" />
+      <recent name="$PROJECT_DIR$/pickle_it" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -359,23 +392,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="formulas" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_services/volume_calculator" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python_programming" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_services/volume_calculator/formulas.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="git_issues" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -389,6 +405,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_programming" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_services/retrieve_from_git/git_issues.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="quickstart" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_services/retrieve_from_git" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_programming" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_services/retrieve_from_git/quickstart.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -412,18 +445,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for formula_tests.FormulaTests" />
-      <item index="1" class="java.lang.String" itemvalue="Python.formulas" />
-      <item index="2" class="java.lang.String" itemvalue="Python.calculate_volume" />
-      <item index="3" class="java.lang.String" itemvalue="Python.git_issues" />
-      <item index="4" class="java.lang.String" itemvalue="Python.report" />
+      <item index="1" class="java.lang.String" itemvalue="Python.calculate_volume" />
+      <item index="2" class="java.lang.String" itemvalue="Python.git_issues" />
+      <item index="3" class="java.lang.String" itemvalue="Python.report" />
+      <item index="4" class="java.lang.String" itemvalue="Python.quickstart" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.git_issues" />
-        <item index="1" class="java.lang.String" itemvalue="Python.report" />
-        <item index="2" class="java.lang.String" itemvalue="Python.calculate_volume" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for formula_tests.FormulaTests" />
-        <item index="4" class="java.lang.String" itemvalue="Python.formulas" />
+        <item index="1" class="java.lang.String" itemvalue="Python.quickstart" />
+        <item index="2" class="java.lang.String" itemvalue="Python.report" />
+        <item index="3" class="java.lang.String" itemvalue="Python.calculate_volume" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for formula_tests.FormulaTests" />
       </list>
     </recent_temporary>
   </component>
@@ -651,7 +684,21 @@
       <option name="project" value="LOCAL" />
       <updated>1502123071899</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="query git api for issues">
+      <created>1502123202069</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1502123202069</updated>
+    </task>
+    <task id="LOCAL-00032" summary="query git api for issues">
+      <created>1502133397840</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1502133397840</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -696,15 +743,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3808" y="-122" width="2701" height="1633" extended-state="0" />
+    <frame x="2183" y="24" width="3239" height="1956" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18326546" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15282495" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37347853" sideWeight="0.17993335" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24044587" sideWeight="0.1840074" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37347853" sideWeight="0.82006663" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24044587" sideWeight="0.8159926" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -715,7 +763,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dilbert" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -779,44 +826,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="34" />
+      <option name="time" value="35" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/moving_pizza.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/pan.bmp">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/slippery_pizza.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/moving_pan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="30" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_programming_absolute_beginner/chapter_11/pizza_panic_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_01/hello_world.py" />
     <entry file="file://$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02/boolean_values.py" />
     <entry file="file://$PROJECT_DIR$/automate_the_boring_stuff_with_python/Chapter_02/hello_mary.py" />
@@ -1005,21 +1019,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_services/retrieve_from_git/git_issues.py">
+    <entry file="file://$PROJECT_DIR$/web_services/retrieve_from_git/quickstart.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="623">
+          <caret line="64" column="65" lean-forward="false" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_services/retrieve_from_git/client_secret.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="178" lean-forward="false" selection-start-line="0" selection-start-column="178" selection-end-line="0" selection-end-column="178" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_services/retrieve_from_git/Issue_By_Month.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/gdata/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web_services/retrieve_from_git/git_calls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_services/retrieve_from_git/Issues_by_month.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_services/retrieve_from_git/git_issues.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

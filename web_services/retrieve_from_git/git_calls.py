@@ -1,22 +1,8 @@
 BASE_URL = 'https://api.github.com/'
-BLOCKER_ISSUES = BASE_URL + \
-    'search/issues?q=repo:artemishealth/artemis-app+label:bug+' \
-    'label:prio:blocker+-label:customer_reported+state:open'
-HIGH_ISSUES = BASE_URL + \
-        'search/issues?q=repo:artemishealth/artemis-app+label:bug+' \
-        'label:prio:high+-label:customer_reported+state:open'
-NORMAL_ISSUES = BASE_URL + \
-        'search/issues?q=repo:artemishealth/artemis-app+label:bug+' \
-        'label:prio:normal+-label:customer_reported+state:open'
-LOW_ISSUES = BASE_URL + \
-        'search/issues?q=repo:artemishealth/artemis-app+label:bug+' \
-        'label:prio:low+-label:customer_reported+state:open'
-CUSTOMER_REPORTED_ISSUES = \
-    BASE_URL + \
-    'search/issues?q=repo:artemishealth/artemis-app+label:bug+' \
-    'label:customer_reported+state:open'
+OPEN_ISSUES = BASE_URL + 'repos/artemishealth/artemis-app/issues?state=all&labels=bug&page={}'
+CUSTOMER_REPORTED = BASE_URL + 'repos/artemishealth/artemis-app/issues?state=all&labels=bug,customer_reported&page={}'
 
 
 # TODO - Replace below with a token.
-USERNAME = 'My User Name'
-PASSWORD = 'My Password'
+USERNAME = 'DarthOpto'
+PASSWORD = 'M1ckeyM0use'

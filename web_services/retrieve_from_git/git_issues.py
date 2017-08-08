@@ -1,40 +1,55 @@
 import requests
 import web_services.retrieve_from_git.git_calls as gc
+import csv
 
-
-ISSUE_CALLS = {'blocker': gc.BLOCKER_ISSUES,
-               'high': gc.HIGH_ISSUES,
-               'normal': gc.NORMAL_ISSUES,
-               'low': gc.LOW_ISSUES,
-               # TODO - Uncomment when we have Customer Reported Issues
-               # 'customer reported': gc.CUSTOMER_REPORTED_ISSUES
-               }
-
-
-def issue_counts():
+# TODO - ADD Customer Reported, once we get some.
+def issues_from_git():
     issues = []
+    count = 1
+    while True:
+        request = requests.get(gc.OPEN_ISSUES.format(count), auth=(gc.USERNAME, gc.PASSWORD))
 
-    for priority_key, priority_value in ISSUE_CALLS.items():
-        request = requests.get(priority_value, auth=(gc.USERNAME, gc.PASSWORD))
         parsed_response = request.json()
-        issue = parsed_response.get('items')
-        for items in issue:
+        if not parsed_response:
+            break
+        for items in parsed_response:
             year_month = items.get('created_at')[:7]
-            issues.append({'issue_priority': priority_key,
-                           'year_month': year_month,
-                           'issue_number': issue[1].get('number')})
-
+            state = items.get('state')
+            issues.append({'year_month': year_month,
+                           'state': state})
+        count += 1
     return issues
 
 
 def sort_by_year_month():
     result = {}
-    for issue in issue_counts():
-        priority = issue['issue_priority']
-        month = result.setdefault(issue['year_month'], {})
-        month[priority] = month.get(priority, 0) + 1
+    for issue in issues_from_git():
+        if issue['year_month'] not in result:
+            result[issue['year_month']] = {'open': 0, 'closed': 0}
+        if issue['state'] == 'open':
+            result[issue['year_month']]['open'] += 1
+        if issue['state'] == 'closed':
+            result[issue['year_month']]['closed'] += 1
 
     return result
 
-print(sort_by_year_month())
+
+def send_to_csv():
+    data = sort_by_year_month()
+    with open('Issues_by_month.csv', 'w') as csv_file:
+        file_writer = csv.writer(csv_file)
+        file_writer.writerow(['Month',
+                              'Opened Issues',
+                              'Closed Issues',
+                              ])
+        for date in data:
+            row = [date]
+            for key, value in data[date].items():
+                row.append(value)
+            file_writer.writerow(row)
+    csv_file.close()
+
+send_to_csv()
+
+
 
