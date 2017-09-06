@@ -39,8 +39,8 @@ def send_to_csv():
     with open('Issues_by_Month_Customer_Reported.csv', 'w') as csv_file:
         file_writer = csv.writer(csv_file)
         file_writer.writerow(['Month',
-                              'Opened Issues',
-                              'Closed Issues',
+                              'Customer Reported Issue Opened',
+                              'Customer Reported Issue Closed',
                               ])
         for date in data:
             row = [date]

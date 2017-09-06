@@ -38,7 +38,7 @@ def sort_by_year_month():
 
 def send_to_csv():
     data = sort_by_year_month()
-    with open('Issues_by_month.csv', 'w') as csv_file:
+    with open('Issues_by_Month_Not_Customer_Reported.csv', 'w') as csv_file:
         file_writer = csv.writer(csv_file)
         file_writer.writerow(['Month',
                               'Opened Issues',
