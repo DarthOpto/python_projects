@@ -2,15 +2,14 @@ import requests
 import web_services.retrieve_from_git.git_calls as gc
 import csv
 
-# TODO - ADD Customer Reported, once we get some.
-
 
 def issues_from_git():
     issues = []
     count = 1
     while True:
-        request = requests.get(gc.OPEN_ISSUES.format(count), auth=(gc.USERNAME, gc.PASSWORD))
+        request = requests.get(gc.BLOCKER_BUGS.format(count), auth=(gc.USERNAME, gc.PASSWORD))
         parsed_response = request.json()
+        print(parsed_response)
         if not parsed_response:
             break
         for items in parsed_response:
@@ -37,7 +36,7 @@ def sort_by_year_month():
 
 def send_to_csv():
     data = sort_by_year_month()
-    with open('Issues_by_Month_Not_Customer_Reported.csv', 'w') as csv_file:
+    with open('blockerbugs.csv', 'w') as csv_file:
         file_writer = csv.writer(csv_file)
         file_writer.writerow(['Month',
                               'Opened Issues',
@@ -50,6 +49,3 @@ def send_to_csv():
             file_writer.writerow(row)
 
 send_to_csv()
-
-
-
