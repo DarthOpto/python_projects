@@ -1,6 +1,6 @@
 import requests
 import web_services.retrieve_from_git.git_calls as gc
-from datetime import datetime
+import datetime
 from operator import itemgetter
 
 
@@ -16,8 +16,8 @@ def issues_from_git():
             issue_id = items.get('number')
             date_created = items.get('created_at')[:10]
             date_closed = items.get('closed_at')[:10]
-            d1 = datetime.strptime(date_created, '%Y-%m-%d')
-            d2 = datetime.strptime(date_closed, '%Y-%m-%d')
+            d1 = datetime.datetime.strptime(date_created, '%Y-%m-%d')
+            d2 = datetime.datetime.strptime(date_closed, '%Y-%m-%d')
             closed_time = abs((d2 - d1).days)
 
             # days_to_close = date_created - date_closed
@@ -41,7 +41,3 @@ def rolling_average():
     average = sum_of_days / len(closed_days)
     return average
 
-
-
-print(issues_from_git()[:6])
-print(rolling_average())

@@ -1,6 +1,6 @@
 import requests
 import web_services.retrieve_from_git.git_calls as gc
-import csv
+import datetime
 
 
 def issues_from_git():
@@ -13,10 +13,12 @@ def issues_from_git():
         if not parsed_response:
             break
         for items in parsed_response:
+            last_month = str(datetime.datetime.now() + datetime.timedelta(-30))[:7]
             year_month = items.get('created_at')[:7]
-            state = items.get('state')
-            issues.append({'year_month': year_month,
-                           'state': state})
+            if year_month == last_month:
+                state = items.get('state')
+                issues.append({'year_month': year_month,
+                               'state': state})
         count += 1
     return issues
 
@@ -33,22 +35,6 @@ def sort_by_year_month():
 
     return result
 
-
-def send_to_csv():
-    data = sort_by_year_month()
-    with open('Issues_by_Month_Customer_Reported.csv', 'w') as csv_file:
-        file_writer = csv.writer(csv_file)
-        file_writer.writerow(['Month',
-                              'Customer Reported Issue Opened',
-                              'Customer Reported Issue Closed',
-                              ])
-        for date in data:
-            row = [date]
-            for key, value in data[date].items():
-                row.append(value)
-            file_writer.writerow(row)
-
-send_to_csv()
 
 
 
