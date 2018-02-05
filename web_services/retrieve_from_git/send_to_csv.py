@@ -25,13 +25,13 @@ def send_to_csv():
                               ])
         for date in internal_data:
             row = [date, avg]
-            for key, internal_value in internal_data[date].items():
+            for internal_value in internal_data[date].values():
                 row.append(internal_value)
             for customer_issue in customer_data:
-                for key, customer_value in customer_data[customer_issue].items():
+                for customer_value in customer_data[customer_issue].values():
                     row.append(customer_value)
             for blocker_issue in blocker_data:
-                for key, blocker_value in blocker_data[blocker_issue].items():
+                for blocker_value in blocker_data[blocker_issue].values():
                     row.append(blocker_value)
         file_writer.writerow(row)
 
