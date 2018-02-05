@@ -1,8 +1,9 @@
-import web_services.retrieve_from_git.git_issues_internal as internal_reported
-import web_services.retrieve_from_git.git_issues_customer_reported as customer_reported
+import csv
+import sys
 import web_services.retrieve_from_git.git_blocker_issues as blockers
 import web_services.retrieve_from_git.git_blocker_issues_open_closed as blockers_rolling_avg
-import csv
+import web_services.retrieve_from_git.git_issues_customer_reported as customer_reported
+import web_services.retrieve_from_git.git_issues_internal as internal_reported
 
 
 def send_to_csv():
@@ -35,4 +36,6 @@ def send_to_csv():
         file_writer.writerow(row)
 
 
-send_to_csv()
+if __name__ == '__main__':
+    sys.exit(send_to_csv())
+
