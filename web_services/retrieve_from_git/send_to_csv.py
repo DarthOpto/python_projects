@@ -55,6 +55,7 @@ def send_to_csv():
                               'Blocker Bugs Opened',
                               'Blocker Bugs Closed'
                               ])
+        row = []
         for date in internal_data:
             row = [date, avg]
             for internal_value in internal_data[date].values():
