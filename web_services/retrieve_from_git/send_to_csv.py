@@ -1,15 +1,47 @@
 import csv
+import datetime
+import requests
 import sys
-import web_services.retrieve_from_git.git_blocker_issues as blockers
+import web_services.retrieve_from_git.git_calls as gc
 import web_services.retrieve_from_git.git_blocker_issues_open_closed as blockers_rolling_avg
-import web_services.retrieve_from_git.git_issues_customer_reported as customer_reported
-import web_services.retrieve_from_git.git_issues_internal as internal_reported
+
+
+def issues_from_git(issue_type):
+    issues = []
+    count = 1
+    while True:
+        request = requests.get(issue_type.format(count), auth=(gc.USERNAME, gc.PASSWORD))
+        parsed_response = request.json()
+        if not parsed_response:
+            break
+        for items in parsed_response:
+            last_month = str(datetime.datetime.now() + datetime.timedelta(-30))[:7]
+            year_month = items.get('created_at')[:7]
+            if year_month == last_month:
+                state = items.get('state')
+                issues.append({'year_month': year_month,
+                               'state': state})
+        count += 1
+    return issues
+
+
+def sort_by_year_month(issues):
+    result = {}
+    for issue in issues:
+        if issue['year_month'] not in result:
+            result[issue['year_month']] = {'open': 0, 'closed': 0}
+        if issue['state'] == 'open':
+            result[issue['year_month']]['open'] += 1
+        if issue['state'] == 'closed':
+            result[issue['year_month']]['closed'] += 1
+
+    return result
 
 
 def send_to_csv():
-    internal_data = internal_reported.sort_by_year_month()
-    customer_data = customer_reported.sort_by_year_month()
-    blocker_data = blockers.sort_by_year_month()
+    internal_data = sort_by_year_month(issues_from_git(gc.OPEN_ISSUES))
+    customer_data = sort_by_year_month(issues_from_git(gc.CUSTOMER_REPORTED))
+    blocker_data = sort_by_year_month(issues_from_git(gc.BLOCKER_BUGS))
     avg = blockers_rolling_avg.rolling_average()
 
     with open('Integrated.csv', 'w') as csv_file:
