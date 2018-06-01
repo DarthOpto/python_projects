@@ -2,8 +2,8 @@ import csv
 import datetime
 import requests
 import sys
-import web_services.retrieve_from_git.git_calls as gc
-import web_services.retrieve_from_git.git_blocker_issues_open_closed as blockers_rolling_avg
+import git_calls as gc
+import git_blocker_issues_open_closed as blockers_rolling_avg
 
 
 def issues_from_git(issue_type):
