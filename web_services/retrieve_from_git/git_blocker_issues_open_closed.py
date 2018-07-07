@@ -1,5 +1,5 @@
 import requests
-import web_services.retrieve_from_git.git_calls as gc
+import git_calls as gc
 import datetime
 from operator import itemgetter
 
