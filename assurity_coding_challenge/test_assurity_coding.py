@@ -1,4 +1,4 @@
-from assurity_coding_challenge.fixture import api_call_response
+from .fixture import api_call_response
 
 
 def test_name_is_carbon_credits(api_call_response):

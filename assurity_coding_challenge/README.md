@@ -25,5 +25,5 @@ We want to see your best work - no lazy coding or comments.
 1. ```pip install .```
 1. ```pre-commit install --install-hooks```
 1. prior to commit ```black .```
-1. ```pytest tests```
+1. ```pytest -v --html=assurity_tests_report.html```
 1. Move back to New Zealand
