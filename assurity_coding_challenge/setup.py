@@ -5,9 +5,7 @@ from setuptools import find_packages, setup
 
 BASE_PATH = os.path.abspath(os.path.dirname(__file__))
 
-with open(
-    os.path.join(BASE_PATH, "README.md"), encoding="utf-8"
-) as readme_file:
+with open(os.path.join(BASE_PATH, "README.md"), encoding="utf-8") as readme_file:
     LONG_DESCRIPTION = readme_file.read()
 
 with open(
