@@ -1,5 +1,4 @@
 .pytest_cache/
 assets/
-*.html
 __pycache__/
 
