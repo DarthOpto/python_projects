@@ -1,6 +1,5 @@
 .pytest_cache/
 assets/
-*.html
 __pycache__/
 .idea/
 .github/
