@@ -1,4 +1,4 @@
-"""A simple python based test client for testing the Assurity Coding Challenge."""
+"""Flask Web Development Book"""
 import os
 
 from setuptools import find_packages, setup
@@ -17,7 +17,7 @@ PACKAGES = find_packages(BASE_PATH)
 
 ENTRY_POINTS = {
     "console_scripts": [
-        # 'assurity: assurity.test_runner.main'
+        # 'flask: flask.test_runner.main'
     ]
 }
 
@@ -28,7 +28,7 @@ setup(
     entry_points=ENTRY_POINTS,
     long_description=LONG_DESCRIPTION,
     install_requires=REQUIREMENTS,
-    name="assurity",
+    name="Flask",
     packages=PACKAGES,
     python_requires=">=3.7.*",
     version="0.0.1",
