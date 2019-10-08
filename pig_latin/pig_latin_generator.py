@@ -1,5 +1,6 @@
 """
 A pig latin generator.
+Take input of a word or phrase from a user then -
 If a word begins with a consonant, then move that consonant to the end and add
 "ay".
 If the word begins with a vowel, add "way" to the end.
@@ -24,4 +25,3 @@ for item in WORD_LIST:
         PIG_LATIN.append(new_word + item[0] + "ay")
 
 print(' '.join(PIG_LATIN))
-
