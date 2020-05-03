@@ -6,7 +6,7 @@
 
 from tkinter import *
 from tkinter import messagebox
-from country_scramble.country_getter import get_country
+from country_getter import get_country
 
 
 class Application(Frame):
