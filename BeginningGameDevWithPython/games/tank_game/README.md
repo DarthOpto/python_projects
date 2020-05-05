@@ -1,9 +1,0 @@
-### Tank Game
-
-## Instructions:
-
-Follow the instructions below to run country scrambler:
-
-1. ```pip install .```
-1. prior to commit ```black .```
-
