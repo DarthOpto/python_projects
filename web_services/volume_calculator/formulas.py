@@ -63,7 +63,7 @@ def cylinder_volume(radius: int, height: int):
 def dodecahedron_volume(side: int):
     """
     Calculate the volume of a dodecahedron
-    V = ((15 + 7) * sqrt5 / 4) * side ** 3
+    V = ((15 + 7) * sqrt(5)) / 4) * side ** 3
     :param side: length of one edge
     :return: volume of the dodecahedron
     """
