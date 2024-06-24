@@ -14,7 +14,7 @@ reps = 0
 timer = None
 
 
-# ---------------------------- TIMER RESET ------------------------------- #
+# TIMER RESET
 def reset_timer():
     window.after_cancel(timer)
     canvas.itemconfig(timer_text, text="00:00")
@@ -24,7 +24,7 @@ def reset_timer():
     reps = 0
 
 
-# ---------------------------- TIMER MECHANISM ------------------------------- #
+# TIMER MECHANISM
 def start_timer():
     global reps
     reps += 1
@@ -43,7 +43,7 @@ def start_timer():
         timer_label.config(text="Work", fg=GREEN)
 
 
-# ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
+# COUNTDOWN MECHANISM
 
 def countdown(count):
     count_minutes = math.floor(count / 60)
@@ -64,7 +64,7 @@ def countdown(count):
             checkmark_label.config(text=mark)
 
 
-# ---------------------------- UI SETUP ------------------------------- #
+# UI
 window = Tk()
 window.title("Pomodoro Timer")
 window.config(padx=100, pady=50, bg=YELLOW)
