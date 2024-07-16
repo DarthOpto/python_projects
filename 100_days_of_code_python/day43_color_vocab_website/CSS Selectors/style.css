@@ -1,0 +1,25 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+/* This is an element selector */
+p {
+    color: red;
+}
+/* This is an class selector */
+.note {
+    font-size: 20px;
+}
+/* This is an id selector */
+#id-selector-demo {
+    color: green;
+}
+/* This is an attribute selector */
+li[value="4"] {
+    color: blue;
+}
+/* This is an universal selector */
+* {
+    text-align: center;
+}
