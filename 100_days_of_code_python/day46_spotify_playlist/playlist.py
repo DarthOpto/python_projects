@@ -3,6 +3,7 @@ import requests
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
+# Get Billboard Top 100 from a certain day
 date = input("Which year do you want to travel to? Type the date in this format YYYY-MM-DD: ")
 
 response = requests.get("https://www.billboard.com/charts/hot-100/" + date)
@@ -11,8 +12,7 @@ soup = BeautifulSoup(response.text, 'html.parser')
 song_names_spans = soup.select("li ul li h3")
 song_names = [song.getText().strip() for song in song_names_spans]
 
-print(song_names)
-
+# Authenticate to Spotify and get songs from Spotify
 sp = spotipy.Spotify(
     auth_manager=SpotifyOAuth(
         scope="playlist-modify-private",
@@ -36,6 +36,7 @@ for song in song_names:
     except IndexError:
         print(f"{song} doesn't exist in Spotify. Skipped.")
 
+# Create Playlist on Spotify
 playlist = sp.user_playlist_create(user=user_id, name=f"{date} Billboard 100", public=False)
 
 sp.playlist_add_items(playlist_id=playlist["id"], items=song_uris)
