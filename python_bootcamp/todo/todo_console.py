@@ -1,6 +1,11 @@
-from functions import get_todos, write_todos
+import datetime
 
+from functions import get_todos, write_todos
+import time
+
+today = time.strftime("%A %d-%m-%Y %H:%M:%S")
 while True:
+    print(f'It is {today}')
     # Get user input and strip space characters from it
     user_action = input('To-Do list options, add, edit, complete, show, exit: ')
     user_action = user_action.strip()
