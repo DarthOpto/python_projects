@@ -13,8 +13,10 @@ list_todos = fsg.Listbox(values=get_todos(),
                          size=[45, 10])
 edit_button = fsg.Button('Edit')
 
+window_layout = [[label], [input_box, add_button], [list_todos, edit_button]]
+
 window = fsg.Window('My To-Do App',
-                    layout=[[label], [input_box, add_button], [list_todos, edit_button]],
+                    layout=window_layout,
                     font=('Helvetica', 20))
 
 while True:
