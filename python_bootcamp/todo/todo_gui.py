@@ -1,13 +1,18 @@
 from functions import get_todos, write_todos
 import FreeSimpleGUI as fsg
 import time
+import os
+
+if not os.path.exists('todos.txt'):
+    with open('todos.txt', 'w') as file:
+        pass
 
 fsg.theme("DarkAmber")
 # add to-do elements
 clock = fsg.Text('', key='clock')
 label = fsg.Text('Type in a to-do')
 input_box = fsg.InputText(tooltip='Enter to-do', key='todo')
-add_button = fsg.Button(size=20, image_source='files/add.png',
+add_button = fsg.Button(image_source='add.png',
                         mouseover_colors='LightBlue2', tooltip='Add To-Do',
                         key='Add')
 
@@ -19,7 +24,7 @@ list_todos = fsg.Listbox(values=get_todos(),
 edit_button = fsg.Button('Edit')
 
 # Complete and exit buttons
-complete_button = fsg.Button(size=20, image_source='files/complete.png', tooltip='Complete To-Do', key='Complete')
+complete_button = fsg.Button(size=20, image_source='complete.png', tooltip='Complete To-Do', key='Complete')
 exit_button = fsg.Button("Exit")
 
 window_layout = [[clock],
