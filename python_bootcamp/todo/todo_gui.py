@@ -13,7 +13,13 @@ list_todos = fsg.Listbox(values=get_todos(),
                          size=[45, 10])
 edit_button = fsg.Button('Edit')
 
-window_layout = [[label], [input_box, add_button], [list_todos, edit_button]]
+# Complete and exit buttons
+complete_button = fsg.Button("Complete")
+exit_button = fsg.Button("Exit")
+
+window_layout = [[label], [input_box, add_button],
+                 [list_todos, edit_button, complete_button],
+                 [exit_button]]
 
 window = fsg.Window('My To-Do App',
                     layout=window_layout,
@@ -36,6 +42,15 @@ while True:
             todos[index] = new_todo
             write_todos(todos)
             window['todos'].update(values=todos)
+        case 'Complete':
+            todo_to_complete = values['todos'][0]
+            todos = get_todos()
+            todos.remove(todo_to_complete)
+            write_todos(todos)
+            window['todos'].update(values=todos)
+            window['todo'].update(value='')
+        case 'Exit':
+            break
         case 'todos':
             window['todo'].update(value=values['todos'][0])
 
