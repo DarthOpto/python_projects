@@ -1,7 +1,4 @@
-Mop the floor
-Wash the laundry
 Buy groceries
 Master Python
-Read a book
-Delete Facebook account
-
+Make a to-do website
+Help neighbour
