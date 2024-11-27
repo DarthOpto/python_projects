@@ -11,7 +11,7 @@ fsg.theme("DarkAmber")
 # add to-do elements
 clock = fsg.Text('', key='clock')
 label = fsg.Text('Type in a to-do')
-input_box = fsg.InputText(tooltip='Enter to-do', key='todo')
+input_box = fsg.InputText(tooltip='Enter to-do', key='todo_apps')
 add_button = fsg.Button(image_source='add.png',
                         mouseover_colors='LightBlue2', tooltip='Add To-Do',
                         key='Add')
@@ -42,14 +42,14 @@ while True:
     match event:
         case 'Add':
             todos = get_todos()
-            new_todo = values['todo'] + '\n'
+            new_todo = values['todo_apps'] + '\n'
             todos.append(new_todo)
             write_todos(todos)
             window['todos'].update(values=todos)
         case 'Edit':
             try:
                 todo_to_edit = values['todos'][0]
-                new_todo = values['todo']
+                new_todo = values['todo_apps']
                 todos = get_todos()
                 index = todos.index(todo_to_edit)
                 todos[index] = new_todo
@@ -64,13 +64,13 @@ while True:
                 todos.remove(todo_to_complete)
                 write_todos(todos)
                 window['todos'].update(values=todos)
-                window['todo'].update(value='')
+                window['todo_apps'].update(value='')
             except IndexError:
                 fsg.popup("Please select an item before editing", font=("Helvetica", 20))
         case 'Exit':
             break
         case 'todos':
-            window['todo'].update(value=values['todos'][0])
+            window['todo_apps'].update(value=values['todos'][0])
         case fsg.WIN_CLOSED:
             break
 window.close()
