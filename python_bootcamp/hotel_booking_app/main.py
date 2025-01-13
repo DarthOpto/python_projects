@@ -4,6 +4,7 @@ df = pandas.read_csv("hotels.csv", dtype={"id": str})
 df_cards = pandas.read_csv("cards.csv", dtype=str).to_dict(orient="records")
 df_cards_security = pandas.read_csv("card_security.csv", dtype=str)
 
+
 class Hotel:
     def __init__(self, hotel_id):
         self.hotel_id = hotel_id
