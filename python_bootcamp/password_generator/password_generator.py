@@ -11,7 +11,7 @@ letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
 numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 symbols = ['!', '@', '#', '$', '%', '&', '(', ')', '*', '+']
 
-# Easy Level
+
 # password = ""
 # for char in range(1, number_of_letters + 1):
 #     password += random.choice(letters)
@@ -22,7 +22,6 @@ symbols = ['!', '@', '#', '$', '%', '&', '(', ')', '*', '+']
 #
 # print(password)
 
-# Hard Level
 password_list = []
 for char in range(1, number_of_letters + 1):
     password_list.append(random.choice(letters))

@@ -29,7 +29,6 @@ def generate_password():
 
 
 def save():
-
     website = website_entry.get()
     email = email_entry.get()
     password = password_entry.get()
@@ -80,7 +79,6 @@ def find_password():
 
 
 # UI
-
 window = Tk()
 window.title("Password Manager")
 window.config(padx=50, pady=50)
@@ -104,7 +102,7 @@ website_entry.grid(sticky='w', row=1, column=1)
 website_entry.focus()
 email_entry = Entry(width=35)
 email_entry.grid(sticky='w', row=2, column=1, columnspan=2)
-email_entry.insert(0, "curtis.salisbury@gmail.com")
+email_entry.insert(0, "Enter your email")
 password_entry = Entry(width=21)
 password_entry.grid(sticky='w', row=3, column=1)
 
