@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Level 2 Assessment</title>
+</head>
+<body>
+  <h2>Course Sign Up Page</h2>
+  <form>
+    <p>Please Note: All text fields are required</p>
+    <label for="firstName">First Name:</label>
+    <input type="text" name="" placeholder="First Name" data-id="firstNameInput" id="firstName" required>
+    <label for="lastName">Last Name:</label>
+    <input type="text" name="" placeholder="Last Name" data-id="lastNameInput" id="lastName" required>
+    <p></p>
+    <label for="email">Email:</label>
+    <input type="email" name="" placeholder="Email" data-id="emailInput" id="email" required>
+    <label for="password">Password:</label>
+    <input type="password" name="" id="password" data-id="passwordInput">
+
+    <h3>Are you over the age of 18?</h3>
+    <label for="over">Yes:</label>
+    <input type="radio" id="over" data-id="over18Radio" name="over18">
+    <label for="under">No:</label>
+    <input type="radio" id="under" data-id="under18Radio" name="over18">
+
+    <h3>Do you have a credit card or PayPal?</h3>
+    <select name="paymentMethod" data-id="paymentMethodDropdown">
+      <option value="creditCard">Credit Card</option>
+      <option value="payPal">PayPal</option>
+    </select>
+    <p></p>
+    <input type="submit" value="Sign Up" data-id="submitBtn">
+  </form>
+
+</body>
+</html>
