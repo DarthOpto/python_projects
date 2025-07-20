@@ -1,0 +1,20 @@
+body{
+    background-color: url("https://i.pinimg.com/originals/56/dd/e4/56dde41aee17e96425987f751a9269ce.jpg");
+}
+
+div{
+    background-color: blue;
+    border-color: orange;
+    border-width: 10px;
+    border-style: dotted;
+}
+
+p{
+    color: yellow;
+}
+
+span{
+    background-color: red;
+    color: black;
+}
+
